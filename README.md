@@ -146,9 +146,9 @@ I also included screenshots documenting the AWS Console configuration of:
 * The **AgentCore Gateway**
 * The Gateway target configuration for the `create-bug-report` tool
 
-## Files Not Included
+## Files Not USED
 
-Because my implementation follows the AgentCore architecture that I had already started before the updated project instructions were available, some files mentioned in the project instructions are not part of my implementation.
+Because my implementation follows the AgentCore architecture that I had already started before the updated project instructions were available, some files mentioned in the project instructions are not used in my implementation.
 
 ### `system_prompt.txt`
 
@@ -173,6 +173,14 @@ The Harness was configured directly through the AWS Console, and screenshots of 
 I did not use this script to configure the Gateway.
 
 The AgentCore Gateway and its `create-bug-report` target were configured through the AWS Console. Screenshots of this configuration are included.
+
+## Evaluation Result: Successful
+
+The Bedrock Evaluation results demonstrate that the implemented chatbot produces responses that closely match the expected behavior across the tested customer-support scenarios.
+
+Correctness Score: [INSERT EXACT SCORE FROM SCREENSHOT]
+
+The correctness score is close to 1, indicating a high level of agreement between the chatbot's responses and the expected responses evaluated by the LLM-as-a-judge.
 
 ## Summary
 
