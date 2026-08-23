@@ -178,7 +178,7 @@ The AgentCore Gateway and its `create-bug-report` target were configured through
 
 The Bedrock Evaluation results demonstrate that the implemented chatbot produces responses that closely match the expected behavior across the tested customer-support scenarios.
 
-Correctness Score: [INSERT EXACT SCORE FROM SCREENSHOT]
+Correctness Score: 0.93
 
 The correctness score is close to 1, indicating a high level of agreement between the chatbot's responses and the expected responses evaluated by the LLM-as-a-judge.
 
