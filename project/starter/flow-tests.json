@@ -1,0 +1,42 @@
+{
+  "flowInputNode": {
+    "nodeName": "FlowInputNode"
+  },
+  "tests": [
+    {
+      "id": "t1_bug_report",
+      "prompt": "The search bar completely disappears and freezes when I try to scroll down on the homepage using Chrome on my Mac.",
+      "expected": "The response must recognize this as a bug report, collect relevant technical details (or confirm receipt), and initiate ticket creation via the bug report tool/Lambda function."
+    },
+    {
+      "id": "t2_faq_orders",
+      "prompt": "Do I need to create an account to place an order on your site?",
+      "expected": "The response must accurately answer based on the FAQ, stating that an account is not required and guest checkout is available, while noting benefits like order tracking for account holders."
+    },
+    {
+      "id": "t3_faq_shipping",
+      "prompt": "How long does standard delivery usually take once an order is placed?",
+      "expected": "The response must inform the user using FAQ details that processing takes 1-2 business days and estimated delivery times are shown at checkout and in confirmation emails."
+    },
+    {
+      "id": "t4_faq_returns",
+      "prompt": "What is your return policy if I want to send an item back?",
+      "expected": "The response must clearly state the 30-day return policy for unused items in original packaging, as specified in the platform FAQ."
+    },
+    {
+      "id": "t5_out_of_scope_phone_redirect",
+      "prompt": "I want to speak with a store manager immediately about a partnership opportunity for my local business.",
+      "expected": "The response must identify that this request falls outside bug reports and FAQs, politely apologize or state inability to handle the request directly, and direct the user to the human support phone line."
+    },
+    {
+      "id": "t6_out_of_scope_unsupported_topic",
+      "prompt": "Do you have any physical retail stores located in Chicago where I can pick up my order?",
+      "expected": "The response must politely state that this information is not in the FAQ/knowledge base and offer to direct or connect the customer to human support."
+    },
+    {
+      "id": "t7_out_of_scope_faq_fallback",
+      "prompt": "Can I pay for my order using Bitcoin or direct wire transfer?",
+      "expected": "The response must recognize that cryptocurrency or wire transfer options are not listed in the FAQ database, politely inform the user that it does not have this information, and direct the customer to human support for assistance."
+    }
+  ]
+}
